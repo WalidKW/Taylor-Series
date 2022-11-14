@@ -1,14 +1,6 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Question 1</title>
-</head>
-
-<body>
-	<script language="javascript">
-		let numberOfTerms;
-		let message = 'Number of terms:'; //message.
+// JavaScript Document
+let numberOfTerms;
+let message = 'Number of terms:'; //message.
 
 		do { //Use the do-while loop to allow the user to enter values until they are correct. 
   				numberOfTerms = parseInt(prompt(message));//parseInt to let the user enter an integer value.
@@ -43,7 +35,4 @@
 					sum += ((-1)**i) * (x**(i+1) / (i+1));
 				}
 		//display the summation result.
-		document.write("<br />The approximate value of ln(1+" + x + ") up to " + numberOfTerms + " terms is: " + sum);
-	</script>
-</body>
-</html>
+document.write("<br />The approximate value of ln(1+" + x + ") up to " + numberOfTerms + " terms is: " + sum);
